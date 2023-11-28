@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <h1 class="logo">Portfolio</h1>
+        <nav>
+            <ul class="nav-links">
+                <li><a  href="#" class="active ">Home</a></li>
+                <li><a href="#s">Services</a></li>
+                <li><a href="#q">Quote</a></li>
+                <li><a href="#c">Clients</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Banner -->
+    <section class="banner" i>
+        <div class="details">
+        <p class="t1">I am,</p>
+        <p class="t2">Alagani Jagadeesh</p>
+        <p class="desc">Software Developer|B.Tech|SRET</p>
+        <button class="contact">Contact me</button>
+    </div>
+    <div class="persn">
+        <img class="image" src="data:image/png;base64,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"  alt="">
+    </div>
+    </section>
+    <section class="services" id="s">
+        <h1 class="section-title">Services I Provided</h1>
+        <div class="service-child">
+            <div class="service">
+                <i class="fa-solid fa-laptop icon"></i>
+                <h2>Web Development</h2>
+                <p>Web Page.Hosting.Forms</p>
+                <p class="service-text">Starts from 100$</p>
+                <button class="service-btn">View More</button>
+            </div>
+            <div class="service">
+                <i class="fa-brands fa-app-store-ios icon"></i>
+                <h2>App Development</h2>
+                <p>Build iOS.Andriod.Publish</p>
+                <p class="service-text">Starts from 150$</p>
+                <button class="service-btn">View More</button>
+            </div>
+            <div class="service">
+                <i class="fa-brands fa-square-instagram icon"></i>
+                <h2>Digital Marketing</h2>
+                <p>SEO·Rob Percival·Walsh</p>
+                <p class="service-text">Starts from 50$</p>
+                <button class="service-btn">View More</button>
+            </div>
+        </div>
+    </section>
+    <!-- Acheivements -->
+    <section class="ach">
+        <div class="service-child gap">
+            <div class="ache">
+                <h2 class="number">200+</h2>
+                <p class="tag">Satisfied Clients</p>
+            </div>
+            <div class="ache">
+                <h2 class="number">378+</h2>
+                <p class="tag">Projects Delivered</p>
+            </div>
+            <div class="ache">
+                <h2 class="number">3 lakh+</h2>
+                <p class="tag">Github Commits</p>
+            </div>
+            <div class="ache">
+                <h2 class="number">20+</h2>
+                <p class="tag">Countries Covered</p>
+            </div>
+            <div class="ache">
+                <h2 class="number">2000+</h2>
+                <p class="tag">Empolyees</p>
+            </div>
+        </div>
+    </section>
+    <!-- Quote -->
+    <section class="quote" id="q">
+        <div class="overlay">
+            <div class="quote-area">
+                <input type="email" class="inp" placeholder="Enter your Email">
+                <button class="contact">Get Quote</button>
+            </div>
+        </div>
+    </section>
+    <!-- Clients -->
+    <section class="clients" id="c">
+        <h1 class="section-title">Our Clients</h1>
+        <div class="service-child">
+            <div class="ima" >
+                <!-- <img src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c51f.png" alt=""> -->
+                <img class="images" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Microsoft_logo_%282012%29.svg/2560px-Microsoft_logo_%282012%29.svg.png" alt="">
+                <img class="images" src="https://logos-download.com/wp-content/uploads/2022/01/Deloitte_Digital_Logo.png" alt="">
+                <img class="images" src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="">
+                <img class="images" src="https://www.pngmart.com/files/10/Apple-Logo-PNG-Photos.png" alt="">
+                <img class="images" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Meta_Platforms_Inc._logo.svg/948px-Meta_Platforms_Inc._logo.svg.png" alt="">
+                <img class="images" src="https://brandslogos.com/wp-content/uploads/thumbs/accenture-logo-vector-2.svg" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="footer">
+        <div class="service-child">
+            <div class="foot">
+                <h3>Quick Links</h3>
+                <ul class="links">
+                    <li>Home</li>
+                    <li>About Us</li>
+                    <li>Services</li>
+                    <li>Quotes</li>
+                    <li>Clients</li>
+                    <li></li>
+                </ul>
+            </div>
+                <div class="foot">
+                    <h3>Contact</h3>
+                    <ul class="links">
+                        <li>Seawoods,Sector 100, Navi Mumbai, Maharashtra,India 478965</li>
+                        <li>+91 8939893493</li>
+                        <li>+91 947393939</li>
+                        <li>alaganiajgagsl@gmail.com</li>
+                    </ul>
+                      
+        </div>
+        <div class="foot c">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15509.857584038533!2d79.41412074435316!3d13.629491283173754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4d4ba7e027d5b3%3A0x4bb04b8cf13ce3ed!2sTirupathi%20Bus%20Stand!5e0!3m2!1sen!2sin!4v1701151350880!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </footer>
+</body>
+</html>
